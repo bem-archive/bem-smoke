@@ -1,0 +1,39 @@
+{
+  "name": "bem-smoke",
+  "version": "0.1.0",
+  "description": "Helper library to assist smoke-testing of the bem technologies.",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bem/bem-smoke.git"
+  },
+  "keywords": [
+    "bem",
+    "test",
+    "testing",
+    "tech",
+    "technology",
+    "block",
+    "element",
+    "modifier"
+  ],
+  "author": "Sergej Tatarincev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bem/bem-smoke/issues"
+  },
+  "dependencies": {
+    "require-mocked": "~0.1.1",
+    "chai": "~1.7.2",
+    "inherit": "~2.0.0",
+    "q": "~0.9.6",
+    "q-io": "~1.9.1",
+    "chai-as-promised": "~3.3.1"
+  },
+  "devDependencies": {
+    "bem": "~1.0.0-alpha3"
+  },
+  "peerDependencies": {
+    "bem": "~1.0.0-alpha3"
+  }
+}
