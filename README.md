@@ -77,6 +77,8 @@ to use for a build.
 * `producesFile(path)` - assert that file at `path` exists after action finishes.
 * `withContent(line1, line2, ...)` - assert that file specified at the last `producesFile` has correct content
 after action finishes. Each argument represents one expected line of a file.
+* `writesToFile(path)` - assert that file at `path` have been written to during the test.
+* `notWritesToFile(path)` - assert that file at `path` have not been written to during test.
 
 #### Utility methods
 
