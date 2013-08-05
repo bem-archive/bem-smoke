@@ -58,6 +58,9 @@ file with corresponding content.
 
 * `withLevels(levels)` - specifies levels to use for a create/bulid. `levels` is an array of directory paths.
 
+* `withTechMap(map)` - specifies tech map to use during tests. Map format is
+`{"techName": "/absolute/path/to/module"}`. Can be useful to resolve base technologies by names.
+
 #### Action methods
 
 * `create(elem)` - performs create action for the technology. `elem.block`, `elem.elem`, `elem.mod` and `elem.val`
