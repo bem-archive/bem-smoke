@@ -56,6 +56,9 @@ tech.withSourceFiles({
 files/directories names. If value of a key is an object, then it represents directory, if it's string or Buffer -
 file with corresponding content.
 
+* `withLevel(path)` - specify level to use during the test. If not called, level at root of a mock fs tree will
+be used.
+
 * `withLevels(levels)` - specifies levels to use for a create/bulid. `levels` is an array of directory paths.
 
 * `withTechMap(map)` - specifies tech map to use during tests. Map format is
