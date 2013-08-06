@@ -32,8 +32,5 @@
   },
   "devDependencies": {
     "bem": "~1.0.0-alpha3"
-  },
-  "peerDependencies": {
-    "bem": "~1.0.0-alpha3"
   }
 }
