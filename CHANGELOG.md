@@ -1,5 +1,9 @@
 # Changelog
 
+# dev
+
+* added `withMockedModules` method.
+
 # v0.2.0
 
 * added `withTechMap` setup method that allows to specify base technologies path.

@@ -64,6 +64,19 @@ be used.
 * `withTechMap(map)` - specifies tech map to use during tests. Map format is
 `{"techName": "/absolute/path/to/module"}`. Can be useful to resolve base technologies by names.
 
+* `withMockModules(modules)` - specifies mocks to use instead of particular modules during the test. Format is
+`{"moduleId": mockObject}`. Note, that `fs` and `q-io/fs` modules are already mocked by framework.
+    Example:
+    ```javascript
+    tech.withMockedModules({
+        'net': {
+            createServer: function() {
+                ...
+            }
+        }
+    });
+    ```
+
 #### Action methods
 
 * `create(elem)` - performs create action for the technology. `elem.block`, `elem.elem`, `elem.mod` and `elem.val`
@@ -84,6 +97,7 @@ after action finishes. Each argument represents one expected line of a file.
 
 * `notify(callback)` - used with asynchronous test runners, such as [mocha](https://github.com/visionmedia/mocha)
 to notify runner that test is complete.
+* `asserts(callback)` - pass a function to this method to execute any additional assertions on a tech.
 
 Example:
 
