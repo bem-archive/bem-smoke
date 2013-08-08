@@ -1,0 +1,159 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/sevinf/.nvm/v0.10.15/bin/node',
+1 verbose cli   '/Users/sevinf/.nvm/v0.10.15/bin/npm',
+1 verbose cli   'publish',
+1 verbose cli   '--tag',
+1 verbose cli   'unstable' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/sevinf/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/tmp.tgz
+12 verbose folder .
+13 info prepublish bem-smoke@0.2.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/sevinf/.npm/1f1177db-tar.lock
+16 silly lockFile 521f84d8-85497-0-9681642174255103-tmp-tgz tar:///var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/tmp.tgz
+17 verbose lock tar:///var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/tmp.tgz /Users/sevinf/.npm/521f84d8-85497-0-9681642174255103-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 521f84d8-85497-0-9681642174255103-tmp-tgz tar:///var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/tmp.tgz
+21 silly lockFile 521f84d8-85497-0-9681642174255103-tmp-tgz tar:///var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/tmp.tgz
+22 verbose tar unpack /var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/tmp.tgz
+23 silly lockFile ef9dd566-85497-0-9681642174255103-package tar:///var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/package
+24 verbose lock tar:///var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/package /Users/sevinf/.npm/ef9dd566-85497-0-9681642174255103-package.lock
+25 silly lockFile 521f84d8-85497-0-9681642174255103-tmp-tgz tar:///var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/tmp.tgz
+26 verbose lock tar:///var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/tmp.tgz /Users/sevinf/.npm/521f84d8-85497-0-9681642174255103-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry LICENSE
+32 silly gunzTarPerm extractEntry .editorconfig
+33 silly gunzTarPerm extractEntry .jshintignore
+34 silly gunzTarPerm extractEntry .jshintrc
+35 silly gunzTarPerm extractEntry CHANGELOG.md
+36 silly gunzTarPerm extractEntry lib/fs-mock.js
+37 silly gunzTarPerm extractEntry lib/index.js
+38 silly gunzTarPerm extractEntry lib/stub-level.js
+39 silly gunzTarPerm extractEntry lib/tech-test.js
+40 silly lockFile ef9dd566-85497-0-9681642174255103-package tar:///var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/package
+41 silly lockFile ef9dd566-85497-0-9681642174255103-package tar:///var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/package
+42 silly lockFile 521f84d8-85497-0-9681642174255103-tmp-tgz tar:///var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/tmp.tgz
+43 silly lockFile 521f84d8-85497-0-9681642174255103-tmp-tgz tar:///var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/tmp.tgz
+44 verbose tar pack [ '/Users/sevinf/.npm/bem-smoke/0.2.0/package.tgz',
+44 verbose tar pack   '/var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/package' ]
+45 verbose tarball /Users/sevinf/.npm/bem-smoke/0.2.0/package.tgz
+46 verbose folder /var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/package
+47 silly lockFile ef9dd566-85497-0-9681642174255103-package tar:///var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/package
+48 verbose lock tar:///var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/package /Users/sevinf/.npm/ef9dd566-85497-0-9681642174255103-package.lock
+49 silly lockFile 766c1143--npm-bem-smoke-0-2-0-package-tgz tar:///Users/sevinf/.npm/bem-smoke/0.2.0/package.tgz
+50 verbose lock tar:///Users/sevinf/.npm/bem-smoke/0.2.0/package.tgz /Users/sevinf/.npm/766c1143--npm-bem-smoke-0-2-0-package-tgz.lock
+51 silly lockFile ef9dd566-85497-0-9681642174255103-package tar:///var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/package
+52 silly lockFile ef9dd566-85497-0-9681642174255103-package tar:///var/folders/h_/3tk20kxj03j1lnsgd76d7_200000gq/T/npm-6289-hN91U9DI/1375972285497-0.9681642174255103/package
+53 silly lockFile 766c1143--npm-bem-smoke-0-2-0-package-tgz tar:///Users/sevinf/.npm/bem-smoke/0.2.0/package.tgz
+54 silly lockFile 766c1143--npm-bem-smoke-0-2-0-package-tgz tar:///Users/sevinf/.npm/bem-smoke/0.2.0/package.tgz
+55 silly lockFile 9c80e2b3-vinf-npm-bem-smoke-0-2-0-package /Users/sevinf/.npm/bem-smoke/0.2.0/package
+56 verbose lock /Users/sevinf/.npm/bem-smoke/0.2.0/package /Users/sevinf/.npm/9c80e2b3-vinf-npm-bem-smoke-0-2-0-package.lock
+57 silly lockFile 9c80e2b3-vinf-npm-bem-smoke-0-2-0-package /Users/sevinf/.npm/bem-smoke/0.2.0/package
+58 silly lockFile 9c80e2b3-vinf-npm-bem-smoke-0-2-0-package /Users/sevinf/.npm/bem-smoke/0.2.0/package
+59 verbose tar unpack /Users/sevinf/.npm/bem-smoke/0.2.0/package.tgz
+60 silly lockFile fd584fe9-vinf-npm-bem-smoke-0-2-0-package tar:///Users/sevinf/.npm/bem-smoke/0.2.0/package
+61 verbose lock tar:///Users/sevinf/.npm/bem-smoke/0.2.0/package /Users/sevinf/.npm/fd584fe9-vinf-npm-bem-smoke-0-2-0-package.lock
+62 silly lockFile 766c1143--npm-bem-smoke-0-2-0-package-tgz tar:///Users/sevinf/.npm/bem-smoke/0.2.0/package.tgz
+63 verbose lock tar:///Users/sevinf/.npm/bem-smoke/0.2.0/package.tgz /Users/sevinf/.npm/766c1143--npm-bem-smoke-0-2-0-package-tgz.lock
+64 silly gunzTarPerm modes [ '755', '644' ]
+65 silly gunzTarPerm extractEntry package.json
+66 silly gunzTarPerm extractEntry .npmignore
+67 silly gunzTarPerm extractEntry README.md
+68 silly gunzTarPerm extractEntry LICENSE
+69 silly gunzTarPerm extractEntry .editorconfig
+70 silly gunzTarPerm extractEntry .jshintignore
+71 silly gunzTarPerm extractEntry .jshintrc
+72 silly gunzTarPerm extractEntry CHANGELOG.md
+73 silly gunzTarPerm extractEntry lib/fs-mock.js
+74 silly gunzTarPerm extractEntry lib/index.js
+75 silly gunzTarPerm extractEntry lib/stub-level.js
+76 silly gunzTarPerm extractEntry lib/tech-test.js
+77 silly lockFile fd584fe9-vinf-npm-bem-smoke-0-2-0-package tar:///Users/sevinf/.npm/bem-smoke/0.2.0/package
+78 silly lockFile fd584fe9-vinf-npm-bem-smoke-0-2-0-package tar:///Users/sevinf/.npm/bem-smoke/0.2.0/package
+79 silly lockFile 766c1143--npm-bem-smoke-0-2-0-package-tgz tar:///Users/sevinf/.npm/bem-smoke/0.2.0/package.tgz
+80 silly lockFile 766c1143--npm-bem-smoke-0-2-0-package-tgz tar:///Users/sevinf/.npm/bem-smoke/0.2.0/package.tgz
+81 verbose chmod /Users/sevinf/.npm/bem-smoke/0.2.0/package.tgz 644
+82 verbose chown /Users/sevinf/.npm/bem-smoke/0.2.0/package.tgz [ 503, 20 ]
+83 silly lockFile 3a52ce78- .
+84 silly lockFile 3a52ce78- .
+85 silly publish { name: 'bem-smoke',
+85 silly publish   version: '0.2.0',
+85 silly publish   description: 'Helper library to assist smoke-testing of the bem technologies.',
+85 silly publish   main: 'lib/index.js',
+85 silly publish   repository: { type: 'git', url: 'git://github.com/bem/bem-smoke.git' },
+85 silly publish   keywords:
+85 silly publish    [ 'bem',
+85 silly publish      'test',
+85 silly publish      'testing',
+85 silly publish      'tech',
+85 silly publish      'technology',
+85 silly publish      'block',
+85 silly publish      'element',
+85 silly publish      'modifier' ],
+85 silly publish   author: { name: 'Sergej Tatarincev' },
+85 silly publish   license: 'MIT',
+85 silly publish   bugs: { url: 'https://github.com/bem/bem-smoke/issues' },
+85 silly publish   dependencies:
+85 silly publish    { 'require-mocked': '~0.1.1',
+85 silly publish      chai: '~1.7.2',
+85 silly publish      inherit: '~2.0.0',
+85 silly publish      q: '~0.9.6',
+85 silly publish      'q-io': '~1.9.1',
+85 silly publish      'chai-as-promised': '~3.3.1' },
+85 silly publish   devDependencies: { bem: '~1.0.0-alpha3' },
+85 silly publish   readme: '# bem-smoke\n\nHelper library to assist smoke-testing of the bem technologies\n\n## Installation\n\n`npm install bem-smoke`\n\n## Usage\n\n### Tech modules testing\n\nYou need to require `bem-smoke` module and call `testTech` method with a path to your\ntechnology module:\n\n```javascript\n    var BEMSmoke = require(\'bem-smoke\');\n    var tech = BEMSmoke.testTech(\'/absolute/path/to/tech\');\n```\n\nYou can use `require.resolve` to get an absolute path from module id.\n\nAll `TechTest` modules can be divided into three groups that should be called in order:\n\n* setup - prepares initial state for a tech;\n* action - performs action you are testing;\n* assert - check the final state after the action.\n\n#### Example test:\n\n```javascript\nvar tech = BEMTesting.testTech(require.resolve(\'path/to/css-tech\'));\ntech.withSourceFiles({\n    \'menu\': {\n        \'menu.css\': \'.test1 {}\',\n        \'__item\': {\n            \'menu__item.css\': \'.test2 {}\'\n        }\n    }\n})\n.build(\'/name\', {\n    deps: [\n        {block: \'menu\'},\n        {block: \'menu\', elem: \'item\'}\n    ]\n})\n.producesFile(\'name.css\')\n.withContent(\'@import url(menu/menu.css);\',\n             \'@import url(menu/__item/menu__item.css);\',\n             \'\');\n```\n\n#### Setup methods\n\n* `withSourceFiles(fsTree)` - specifies how FS tree should look like during a test. Keys  of `fsTree` represent\nfiles/directories names. If value of a key is an object, then it represents directory, if it\'s string or Buffer -\nfile with corresponding content.\n\n* `withLevel(path)` - specify level to use during the test. If not called, level at root of a mock fs tree will\nbe used.\n\n* `withLevels(levels)` - specifies levels to use for a create/bulid. `levels` is an array of directory paths.\n\n* `withTechMap(map)` - specifies tech map to use during tests. Map format is\n`{"techName": "/absolute/path/to/module"}`. Can be useful to resolve base technologies by names.\n\n* `withMockModules(modules)` - specifies mocks to use instead of particular modules during the test. Format is\n`{"moduleId": mockObject}`. Note, that `fs` and `q-io/fs` modules are already mocked by framework.\n    Example:\n    ```javascript\n    tech.withMockedModules({\n        \'net\': {\n            createServer: function() {\n                ...\n            }\n        }\n    });\n    ```\n\n#### Action methods\n\n* `create(elem)` - performs create action for the technology. `elem.block`, `elem.elem`, `elem.mod` and `elem.val`\nspecifies entity to create.\n\n* `build(prefix, decl)` - performs build action. `prefix` specifies output path prefix, `decl` - declaration\nto use for a build.\n\n#### Assert methods\n\n* `producesFile(path)` - assert that file at `path` exists after action finishes.\n* `withContent(line1, line2, ...)` - assert that file specified at the last `producesFile` has correct content\nafter action finishes. Each argument represents one expected line of a file.\n* `writesToFile(path)` - assert that file at `path` have been written to during the test.\n* `notWritesToFile(path)` - assert that file at `path` have not been written to during test.\n\n#### Utility methods\n\n* `notify(callback)` - used with asynchronous test runners, such as [mocha](https://github.com/visionmedia/mocha)\nto notify runner that test is complete.\n* `asserts(callback)` - pass a function to this method to execute any additional assertions on a tech.\n\nExample:\n\n```javascript\ndescribe(\'example\', function() {\n    it(\'completes\', function(done) {\n        tech.withSourceFiles({\n        })\n        ...\n        .notify(done);\n    });\n});\n\n```\n\n## License\n\nLicensed under MIT license.\n',
+85 silly publish   readmeFilename: 'README.md',
+85 silly publish   _id: 'bem-smoke@0.2.0',
+85 silly publish   dist: { shasum: 'dfc81a4783341d415b2ec62165c7bf96fbde6ce5' },
+85 silly publish   _from: '.' }
+86 verbose url raw bem-smoke
+87 verbose url resolving [ 'https://registry.npmjs.org/', './bem-smoke' ]
+88 verbose url resolved https://registry.npmjs.org/bem-smoke
+89 info trying registry request attempt 1 at 17:31:28
+90 http PUT https://registry.npmjs.org/bem-smoke
+91 http 409 https://registry.npmjs.org/bem-smoke
+92 verbose url raw bem-smoke
+93 verbose url resolving [ 'https://registry.npmjs.org/', './bem-smoke' ]
+94 verbose url resolved https://registry.npmjs.org/bem-smoke
+95 info trying registry request attempt 1 at 17:31:29
+96 http GET https://registry.npmjs.org/bem-smoke
+97 http 200 https://registry.npmjs.org/bem-smoke
+98 error publish fail Cannot publish over existing version.
+98 error publish fail Update the 'version' field in package.json and try again.
+98 error publish fail
+98 error publish fail If the previous version was published in error, see:
+98 error publish fail     npm help unpublish
+98 error publish fail
+98 error publish fail To automatically increment version numbers, see:
+98 error publish fail     npm help version
+99 error System Darwin 12.4.0
+100 error command "/Users/sevinf/.nvm/v0.10.15/bin/node" "/Users/sevinf/.nvm/v0.10.15/bin/npm" "publish" "--tag" "unstable"
+101 error cwd /Users/sevinf/Documents/Projects/bem-smoke
+102 error node -v v0.10.15
+103 error npm -v 1.3.5
+104 error code EPUBLISHCONFLICT
+105 verbose exit [ 1, true ]
