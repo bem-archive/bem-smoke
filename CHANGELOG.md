@@ -5,6 +5,7 @@
 * added `withMockedModules` method.
 * added `withMockedModuleResolves` method.
 * added `asserts` method.
+* `context.opts` now has `declaration` field during build.
 
 # v0.2.0
 
