@@ -23,7 +23,7 @@
     "url": "https://github.com/bem/bem-smoke/issues"
   },
   "dependencies": {
-    "require-mocked": "~0.1.1",
+    "require-mocked": "~0.2.0",
     "chai": "~1.7.2",
     "inherit": "~2.0.0",
     "q": "~0.9.6",

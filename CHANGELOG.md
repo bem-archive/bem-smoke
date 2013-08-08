@@ -3,6 +3,7 @@
 # dev
 
 * added `withMockedModules` method.
+* added `withMockedModuleResolves` method.
 * added `asserts` method.
 
 # v0.2.0

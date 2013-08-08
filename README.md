@@ -76,6 +76,9 @@ be used.
         }
     });
     ```
+* `withMockedModulesResolves(modulePaths)` - stub `require.resolve` for tech under the test to return
+specified path instead of original. Doesn't affect actual module loaded via `require`. Format is
+`{"moduleId": "/stub/path"}`.
 
 #### Action methods
 
