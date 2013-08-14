@@ -2,10 +2,12 @@
 
 # dev
 
+* works with bem 0.6.x.
 * added `withMockedModules` method.
 * added `withMockedModuleResolves` method.
 * added `asserts` method.
-* `context.opts` now has `declaration` field during build.
+* `context.opts` now has `declaration` and `root` fields during build.
+* `q-fs` module is mocked too.
 
 # v0.2.0
 
