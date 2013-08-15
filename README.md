@@ -80,6 +80,9 @@ be used.
 specified path instead of original. Doesn't affect actual module loaded via `require`. Format is
 `{"moduleId": "/stub/path"}`.
 
+* `touchFile(path)` - updates access and modification dates for file at `path`. Should be called after
+`build` or `create`.
+
 #### Action methods
 
 * `create(elem)` - performs create action for the technology. `elem.block`, `elem.elem`, `elem.mod` and `elem.val`

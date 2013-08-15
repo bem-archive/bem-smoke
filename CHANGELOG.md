@@ -6,6 +6,7 @@
 * added `withMockedModules` method.
 * added `withMockedModuleResolves` method.
 * added `asserts` method.
+* added `touchFile` method.
 * `context.opts` now has `declaration` and `root` fields during build.
 * `q-fs` module is mocked too.
 
