@@ -27,10 +27,10 @@
     "chai": "~1.7.2",
     "inherit": "~2.0.0",
     "q": "~0.9.6",
-    "q-io": "git://github.com/SevInf/q-io.git#3130b446be3c65f84fd4f1e96d42c9bb1eca6d13",
+    "q-io": "git://github.com/kriskowal/q-io.git#4899d92b6d5d36e81854e636630844cad0eaa587",
     "chai-as-promised": "~3.3.1"
   },
   "devDependencies": {
-    "bem": "~1.0.0-alpha3"
+    "bem": "~0.6.15"
   }
 }
