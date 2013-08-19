@@ -1,6 +1,6 @@
 {
   "name": "bem-smoke",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Helper library to assist smoke-testing of the bem technologies.",
   "main": "lib/index.js",
   "repository": {
@@ -27,7 +27,7 @@
     "chai": "~1.7.2",
     "inherit": "~2.0.0",
     "q": "~0.9.6",
-    "q-io": "git://github.com/kriskowal/q-io.git#4899d92b6d5d36e81854e636630844cad0eaa587",
+    "q-io": "1.9.3",
     "chai-as-promised": "~3.3.1"
   },
   "devDependencies": {
