@@ -1,6 +1,6 @@
 # Changelog
 
-# dev
+# 0.3.0
 
 * works with bem 0.6.x.
 * added `withMockedModules` method.
