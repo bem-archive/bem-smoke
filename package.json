@@ -1,6 +1,6 @@
 {
   "name": "bem-smoke",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Helper library to assist smoke-testing of the bem technologies.",
   "main": "lib/index.js",
   "repository": {

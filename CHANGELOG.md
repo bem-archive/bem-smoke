@@ -1,5 +1,8 @@
 # Changelog
 
+# 0.3.1
+* ignore `insight` module.
+
 # 0.3.0
 
 * works with bem 0.6.x.
