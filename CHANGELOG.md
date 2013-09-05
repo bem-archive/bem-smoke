@@ -1,5 +1,9 @@
 # Changelog
 
+# 0.3.2
+
+* added `fs.lstatSync` mock.
+
 # 0.3.1
 * ignore `insight` module.
 
